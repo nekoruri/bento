@@ -190,6 +190,7 @@
         "scripts/ubuntu/networking.sh",
         "scripts/ubuntu/sudoers.sh",
         "scripts/ubuntu/vagrant.sh",
+        "scripts/ubuntu/seccamp.sh",
         "scripts/common/vmtools.sh",
         "scripts/ubuntu/cleanup.sh",
         "scripts/common/minimize.sh"
