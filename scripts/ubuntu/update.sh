@@ -9,6 +9,9 @@ if [ "$ubuntu_version" = "12.04" ]; then
     rm -rf /var/lib/apt/lists;
 fi
 
+# Use jaist mirror
+sed -i'~' -E "s@http://(..\.)?(archive|security)\.ubuntu\.com/ubuntu@http://ftp.jaist.ac.jp/pub/Linux/ubuntu@g" /etc/apt/sources.list;
+
 # Update the package list
 apt-get update;
 
